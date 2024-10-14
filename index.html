@@ -1,19 +1,40 @@
 <html>
+  <head>
+    <title>Frontend Workshop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
 
-<head>
-  <title>My Personal Project</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-</head>
+  <body>
+    <h1>About Me</h1>
+    <p>
+      Hello! I am Alan Tran, a third year computer science major at UT Austin.
+    </p>
 
-<body>
+    <div class="flex-container">
+      <div>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>Frontend Development with React</li>
+          <li>Machine Learning Techniques</li>
+          <li>Tranformers in NLP</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Organizations</h2>
+        <ul>
+          <li>Convergent</li>
+          <li>ECLAIR</li>
+          <li>Project Seed</li>
+        </ul>
+      </div>
+    </div>
 
-  <h1>Hello World!</h1>
-  
-  <p>This is my first web page!</p>
-  
-  <button onclick="changeText()">Click me!</button>
-  
-</body>
-
+    <h1>How many times have I cried this week?</h1>
+    <div>
+      <p>How many assignments were due?</p>
+      <input type="number" id="assignments" />
+      <button onclick="multiplyByThree()">Calculate</button>
+    </div>
+  </body>
 </html>
